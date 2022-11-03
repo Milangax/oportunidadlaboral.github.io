@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F4F1EC     ;
+}
+/*-------------web info--------------*/
+.web-section1{
+    width: 100%;
+    font-family: 'Albert Sans', sans-serif; 
+    border: rgb(0, 0, 0) solid;
+    font-size: 1em;
+}
+.info-introduccion{
+    text-align: justify;
+    margin: 6em;
+}
+
+.info-introduccion p{
+    margin: 0.5em;
+    
+}
+.info-oportunidad{
+    text-align: justify;
+    margin: 6em;
+}
+.web-section1 h1{
+    text-align: center;
+    margin: 1em;
+}
+.info-oportunidad p{
+    margin: 0.5em;
+}
+
+.web-footer{
+    height: 100px;
+    background-color:#222344    ;
+}
+
+@media screen and (max-width: 900px) {
+    .info-introduccion{
+
+        margin: 1.5em;
+    }
+    .info-oportunidad{
+    
+        margin: 1.5em;
+        
+    }
+}
+    
